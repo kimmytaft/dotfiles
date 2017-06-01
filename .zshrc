@@ -82,5 +82,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
 source /usr/local/bin/virtualenvwrapper.sh
 TERM=screen-256color
+
+#source aliases from ~/.zsh_aliases
+source ~/.zsh_aliases
